@@ -15,6 +15,7 @@ struct Node
 	Position    Next; 
 };
 
+/* Deleting Junk Data from List */
 List MakeEmpty(List L) { 
 	if (L != NULL)                 
 		DeleteList(L);           
@@ -48,6 +49,8 @@ int IsLast(Position P, List L)
 /* START: fig3_10.txt */    
 /* Return Position of X in L; NULL if not found */
 
+
+/* Function to find aan element from the list */
 Position        
 Find(ElementType X, List L)
 {
